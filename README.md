@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # CSFwinformer: Cross-Space-Frequency Window Transformer for Mirror Detection
 
 This repo is the official implementation of CSFwinformer: Cross-Space-Frequency Window
@@ -53,7 +52,3 @@ python ./tools/test.py configs/mirror/pmd_mirror_swin_small.py work_dirs/pmd_mir
 | RGBD-Mirror | swin_b | 78.66 | 84.64 | 0.900 | 0.031 | 8.57 |
 
 You can find all weights from ["here"](https://drive.google.com/drive/folders/1f5NELOvgO0rH3n8IGyauruyoNYcWfO3J)
-=======
-# CSFwinformer
-The code will be released soon.
->>>>>>> 91e1b181bba5d7b84cbc8e9bff1eedccbab4abfe
