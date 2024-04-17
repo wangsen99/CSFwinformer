@@ -1,7 +1,7 @@
 # CSFwinformer: Cross-Space-Frequency Window Transformer for Mirror Detection
 
-This repo is the official implementation of CSFwinformer: Cross-Space-Frequency Window
-Transformer for Mirror Detection (IEEE TIP 2024).
+This repo is the official implementation of ["CSFwinformer: Cross-Space-Frequency Window
+Transformer for Mirror Detection (IEEE TIP 2024)"](https://ieeexplore.ieee.org/abstract/document/10462920).
 
 ## Installation
 
@@ -52,3 +52,18 @@ python ./tools/test.py configs/mirror/pmd_mirror_swin_small.py work_dirs/pmd_mir
 | RGBD-Mirror | swin_b | 78.66 | 84.64 | 0.900 | 0.031 | 8.57 |
 
 You can find all weights from ["here"](https://drive.google.com/drive/folders/1f5NELOvgO0rH3n8IGyauruyoNYcWfO3J)
+
+## Citation
+If you find this repo useful for your research, please consider citing our paper:
+```
+@ARTICLE{10462920,
+  author={Xie, Zhifeng and Wang, Sen and Yu, Qiucheng and Tan, Xin and Xie, Yuan},
+  journal={IEEE Transactions on Image Processing}, 
+  title={CSFwinformer: Cross-Space-Frequency Window Transformer for Mirror Detection}, 
+  year={2024},
+  volume={33},
+  number={},
+  pages={1853-1867},
+  keywords={Mirrors;Feature extraction;Transformers;Frequency-domain analysis;Visualization;Semantics;Image segmentation;Mirror detection;texture analysis;cross-modality learning;frequency learning},
+  doi={10.1109/TIP.2024.3372468}}
+```
